@@ -6,6 +6,9 @@
 
 ![CHURRASCÔMETRO - Google Chrome 2022-04-29 13-16-44](https://user-images.githubusercontent.com/97768716/165984898-1febdb1e-43b9-4b07-ba21-7a0b256ab007.gif)
 
+  <h2 align="center">
+  <a href="https://gabrielsf2022.github.io/CHURASCOMETRO/" target="_blank"> Veja o site </a>
+</h2>
   
 
 
