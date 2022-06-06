@@ -1,40 +1,38 @@
 body {
   padding: 0px;
   margin: 0px;
-  background-image: url(../images/fundo-background.jpg);
+  background-color: #e2e2e2;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   height: 100vh;
   box-sizing: border-box;
   display: flex;
+  overflow-x: hidden;
 }
 
-.gif {
-  width: 40%;
-  height: 350px;
+.image-churas {
+  width: 50%;
   margin: auto;
   border-radius: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.18);
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
 }
 
 h1 {
-  color: #0077b6;
+  color: black;
   text-align: center;
   justify-content: center;
 }
 
-img {
+main img {
   width: 50px;
   margin: 0px;
   padding: 0px;
 }
 
 main {
-  max-width: 500px;
-  background: #fff;
-  padding: 50px;
+  max-width: 600px;
+  background: #ffe162;
+  padding: 80px;
   border-radius: 16px;
   box-shadow: 5px 5px 4px rgb(0 0 0 / 25%);
   display: flex;
@@ -53,19 +51,20 @@ input {
   justify-content: center;
   text-align: center;
   display: block;
-  padding: 10px;
+  padding: 15px;
   border-radius: 15px;
   border: 2px solid #e2e2e2;
 }
 
 button {
-  background-color: #0077b6;
+  background-color: #ccab1e;
   border-radius: 15px;
   color: #fff;
   width: 80%;
-  padding: 10px;
-  border: 1px solid #e2e2e2;
+  padding: 20px;
+  border: 1px solid black;
   cursor: pointer;
+  transition: 0.3s;
 }
 
 button:hover {
@@ -92,6 +91,14 @@ button:hover {
   }
 }
 
+
+@media(max-width:500px){
+
+  main{
+    width: 300px;
+    padding: 50px;
+  }
+}
 
 
 
