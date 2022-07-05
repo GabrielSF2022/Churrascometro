@@ -15,7 +15,7 @@ function calcular() {
   let criancas = inputCriancas.value;
   let duracao = inputDuracao.value;
 
-  if(adultos < 0) {
+  if(adultos < 0 || adultos == '') {
     alert("Escolha um numero valido para adultos");
   } 
   
@@ -23,7 +23,7 @@ function calcular() {
     alert("Escolha um numero valido para crianças");
   } 
   
-  else if (duracao < 0) {
+  else if (duracao < 0 || duracao == '') {
     alert("Escolha um numero valido para a duração");
   } 
   
