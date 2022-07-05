@@ -3,13 +3,27 @@
 <h1 align="center">CHURRASCÔMETRO-JS!!!!
 
 
+![CHURRASCÔMETRO - Google Chrome 2022-06-06 20-28-38](https://user-images.githubusercontent.com/97768716/172265964-0c9f9b6f-9645-4d21-b4f7-d06fa7119fd3.gif)
+![Design_sem_nome__4_-removebg-preview (1)](https://user-images.githubusercontent.com/97768716/172266026-bd40aa6d-a1b2-45f2-b65e-b8ca6e11780e.png)
 
-![CHURRASCÔMETRO - Google Chrome 2022-04-29 13-16-44](https://user-images.githubusercontent.com/97768716/165984898-1febdb1e-43b9-4b07-ba21-7a0b256ab007.gif)
 
   <h2 align="center">
   <a href="https://gabrielsf2022.github.io/CHURASCOMETRO/" target="_blank"> Veja o site </a>
 </h2>
   
+  
+## Implementações :information_source:
+1.Foi adicionado três campos para receber a quantidade de adultos, criançãs e a duração em horas.
+<br>  
+2.O churrasco vai ter carne, cerveja e refrigerante.
+<br>
+  
+3. Carne - 400gr por pessoa + de 6horas - 650gr<br>
+   Cerveja - 1200ml por Pessoa + 6 horas - 2000ml<br>
+   Refrigerante/água - 1000ml por pessoa + 6 horas 1500ml<br>
+   Crianças valem pela metade, <br>
+  
+4. Responsividade para mobile.
 
 
 <h2 align="center"> FERRAMENTAS USADAS </h2>
