@@ -23,7 +23,7 @@ function calcular() {
     alert("Escolha um numero valido para crianças");
   } 
   
-  else if (duracao <= 0) {
+  else if (duracao < 0) {
     alert("Escolha um numero valido para a duração");
   } 
   
