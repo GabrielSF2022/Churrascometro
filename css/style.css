@@ -48,26 +48,42 @@ main {
 input {
   width: 100%;
   margin: 10px 0px 20px 0px;
-  justify-content: center;
-  text-align: center;
   display: block;
   padding: 15px;
   border-radius: 15px;
   border: 2px solid #e2e2e2;
 }
 
+input:focus{
+  -webkit-box-shadow:0px 1px 52px 19px rgba(62,66,66,0.5);
+  -moz-box-shadow: 0px 1px 52px 19px rgba(62,66,66,0.5);
+  box-shadow: 0px 1px 52px 19px rgba(62,66,66,0.5);
+  outline: 0;
+}
+
+input::placeholder{
+  font-size: 15px;
+}
+
 button {
-  background-color: #ccab1e;
+  background-color:#fdca49;
+  font-weight: 700;
   border-radius: 15px;
-  color: #fff;
-  width: 80%;
-  padding: 20px;
-  border: 1px solid black;
+  color:#1C1C1C;
+  width: 100% ;
+  padding: 20px 16px;
+  font-size: 'Roboto';
+  border: none;
   cursor: pointer;
-  transition: 0.3s;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: 0.3s all ease;
 }
 
 button:hover {
+  -webkit-box-shadow:0px 1px 52px 19px rgba(62,66,66,0.5);
+  -moz-box-shadow: 0px 1px 52px 19px rgba(62,66,66,0.5);
+  box-shadow: 0px 1px 52px 19px rgba(62,66,66,0.5);
   transform: 0.3s;
   margin-top: 2px;
 }
